@@ -1,0 +1,17 @@
+.galeria{
+    background-color: rgb(150, 167, 148);
+    display:flex;
+}
+.galeria li{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px  black;
+    background-color: white;
+    border-radius: 15px;
+    transition: all 1s;
+}
+.galeria li:hover{
+    background-color:rgb(219, 138, 67);
+}
